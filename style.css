@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Roboto';
-    src: url('/font/Roboto/Roboto-Black.ttf') format('truetype');
-    src: url('/font/Roboto/Roboto-Black.ttf') format('truetype'),
-    url('/font/Roboto/Roboto-BlackItalic.ttf') format('truetype'),
-    url('/font/Roboto/Roboto-Bold.ttf') format('truetype');
+    src: url('Roboto-Black.ttf') format('truetype');
+    src: url('Roboto-Black.ttf') format('truetype'),
+    url('Roboto-BlackItalic.ttf') format('truetype'),
+    url('Roboto-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;}
 
 @font-face {
     font-family: 'Vazir';
-    src: url('/font/Vazir/Vazir-Medium.eot');
-    src: url('font/Vazir/Vazir.woff2') format('woff2'),
-    url('/font/Vazir/Vazir-Medium.woff') format('woff'),
-    url('/font/Vazir/Vazir.ttf') format('truetype');
+    src: url('Vazir-Medium.eot');
+    src: url('Vazir.woff2') format('woff2'),
+    url('Vazir-Medium.woff') format('woff'),
+    url('Vazir.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
