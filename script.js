@@ -107,7 +107,7 @@ for (let i = 1; i < 100000; i++) {
                 timeWork.innerHTML = localStorage.getItem('time work' + i)
 
                 let iconDelete = $.createElement('img')
-                iconDelete.setAttribute('src','icons/delete.png')
+                iconDelete.setAttribute('src','delete.png')
                 iconDelete.setAttribute('class','delete')
 
                 boxWorks.append(newli)
@@ -151,11 +151,11 @@ for (let i = 1; i < 100000; i++) {
             timeWork.innerHTML = localStorage.getItem('TimeTitleWork' + i) 
 
             let deleteIcon = $.createElement('img')
-            deleteIcon.setAttribute('src','icons/delete.png')
+            deleteIcon.setAttribute('src','delete.png')
             deleteIcon.setAttribute('class','delete')
 
             let cDown = $.createElement('img')
-            cDown.setAttribute('src','icons/Chevron-down.png')
+            cDown.setAttribute('src','Chevron-down.png')
             cDown.setAttribute('class','chevron-down')          
             
             let containerD = $.createElement('div')
@@ -219,7 +219,7 @@ btnAdd.addEventListener('click',(event)=>{
             timeWork.setAttribute('class','time-work')
             
             let iconDelete = $.createElement('img')
-            iconDelete.setAttribute('src','icons/delete.png')
+            iconDelete.setAttribute('src','delete.png')
             iconDelete.setAttribute('class','delete')
             
             deleteAll.addEventListener('click',()=>{
@@ -284,11 +284,12 @@ btnAdd.addEventListener('click',(event)=>{
             localStorage.setItem('TimeTitleWork' + i,timeWork.innerHTML)
             
             let deleteIcon = $.createElement('img')
-            deleteIcon.setAttribute('src','icons/delete.png')
+            deleteIcon.setAttribute('src','delete.png')
             deleteIcon.setAttribute('class','delete')
 
-            let cDown = $.createElement('i')
-            cDown.setAttribute('class','chevron-down bi-chevron-down')
+            let cDown = $.createElement('img')
+            cDown.setAttribute('src','Chevron-down.png')
+            cDown.setAttribute('class','chevron-down')   
 
             let containerD = $.createElement('div')
             containerD.setAttribute('id','flush-collapse'+ numWords(i))
